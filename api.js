@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/ayo', (req, res)=>{
-    res.send('Ayo is a good boy');
+    res.send('Ayo is a good man');
 })
 
 const server = app.listen(3000, () => {
