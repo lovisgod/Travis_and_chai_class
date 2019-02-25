@@ -1,0 +1,5 @@
+Continuous Integration is the continuous practice of merging in small code changes frequently - rather than merging in a large change at the end of a development cycle. The goal is to build healthier software by developing and testing in smaller increments. This is where Travis CI comes in.
+
+Travis is a CI service which simply means it an automated process. A typical workflow with Travis ad GitHub goes like this:
+
+
