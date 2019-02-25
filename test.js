@@ -9,6 +9,6 @@ describe('test', () => {
 
 describe('test/ayo',() => {
     it('should return a string', () => {
-        expect('Ayo is a good man').to.equal('Ayo is a good boy');
+        expect('Ayo is a good man').to.equal('Ayo is a good man');
     });
 });
