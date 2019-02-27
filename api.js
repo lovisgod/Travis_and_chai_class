@@ -1,14 +1,16 @@
+//this help us to use the express module which is part of the node modules
 const express = require('express');
 
 const app = express();
 
-app.get('/', (req, res) => {
-  res.send('ci with travis');
+//here we declare a GET HTTP method which takes in the url and also a callback method which has 
+//request and response as parameters. 
+
+app.get('/user', (req, res) => {
+  // res.send('ci with');
 });
 
-app.get('/ayo', (req, res)=>{
-    res.send('Ayo is a good man');
-})
+
 
 const server = app.listen(3000, () => {
   console.log('App running on port 3000');

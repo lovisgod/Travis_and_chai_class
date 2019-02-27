@@ -8,4 +8,6 @@ Travis is a CI service which simply means it an automated process. A typical wor
 
 Travis CI makes developing software efficient. it ensures you deploy clean code that follows good practice and also detects if there are possible bugs or deficit in your code caused by a change or refactor in your project.
 
+Following the TDD process, a developer must focus on the test cases before actually coding anything. That meansa developer is thinking more about the use of the software and the design of user interfaces to achieve that. As a result, the developer is more interested in the interface than in the implementation—and that leads to more usable software.
+
 
