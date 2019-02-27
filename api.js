@@ -7,7 +7,7 @@ const app = express();
 //request and response as parameters. 
 
 app.get('/user', (req, res) => {
-  // res.send('ci with');
+  res.send('ci with travis');
 });
 
 
